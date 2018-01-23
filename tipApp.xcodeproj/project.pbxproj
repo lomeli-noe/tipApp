@@ -10,10 +10,9 @@
 		109E2D0E2016A51700814D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E2D0D2016A51700814D3C /* AppDelegate.swift */; };
 		109E2D102016A51700814D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E2D0F2016A51700814D3C /* ViewController.swift */; };
 		109E2D132016A51700814D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109E2D112016A51700814D3C /* Main.storyboard */; };
-		109E2D152016A51700814D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E2D142016A51700814D3C /* Assets.xcassets */; };
-		109E2D182016A51700814D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109E2D162016A51700814D3C /* LaunchScreen.storyboard */; };
 		109E2D232016A51700814D3C /* tipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E2D222016A51700814D3C /* tipAppTests.swift */; };
 		109E2D2E2016A51700814D3C /* tipAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E2D2D2016A51700814D3C /* tipAppUITests.swift */; };
+		10B1B0642017236D00118D76 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B1B0632017236D00118D76 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		109E2D0D2016A51700814D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		109E2D0F2016A51700814D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		109E2D122016A51700814D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		109E2D142016A51700814D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		109E2D172016A51700814D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		109E2D192016A51700814D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		109E2D1E2016A51700814D3C /* tipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		109E2D222016A51700814D3C /* tipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,7 @@
 		109E2D292016A51700814D3C /* tipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		109E2D2D2016A51700814D3C /* tipAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipAppUITests.swift; sourceTree = "<group>"; };
 		109E2D2F2016A51700814D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B1B0632017236D00118D76 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 				109E2D0D2016A51700814D3C /* AppDelegate.swift */,
 				109E2D0F2016A51700814D3C /* ViewController.swift */,
 				109E2D112016A51700814D3C /* Main.storyboard */,
-				109E2D142016A51700814D3C /* Assets.xcassets */,
-				109E2D162016A51700814D3C /* LaunchScreen.storyboard */,
 				109E2D192016A51700814D3C /* Info.plist */,
+				10B1B0632017236D00118D76 /* Launch Screen.storyboard */,
 			);
 			path = tipApp;
 			sourceTree = "<group>";
@@ -232,8 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109E2D182016A51700814D3C /* LaunchScreen.storyboard in Resources */,
-				109E2D152016A51700814D3C /* Assets.xcassets in Resources */,
+				10B1B0642017236D00118D76 /* Launch Screen.storyboard in Resources */,
 				109E2D132016A51700814D3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,14 +298,6 @@
 				109E2D122016A51700814D3C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		109E2D162016A51700814D3C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				109E2D172016A51700814D3C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,7 +413,6 @@
 		109E2D332016A51700814D3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = tipApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,7 +426,6 @@
 		109E2D342016A51700814D3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = tipApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
